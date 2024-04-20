@@ -24,9 +24,6 @@ const data = [
         img: Books,
         name: "Book"
     },
-    {
-        img: Jewelry,
-        name: "Jewelry"
-    },
+
 ]
 export default data
