@@ -124,8 +124,14 @@ const ProductDetail = () => {
     else if (cat === 'electronics') {
         data.push(product.category, cat)
     }
+    else if (cat === 'Sport') {
+        data.push(product.category, cat)
+    }
     else if (cat === 'jewelry') {
-        data.push(cat)
+        data.push(product.category, cat)
+    }
+    else if (cat === 'ABC') {
+        data.push(product.category, cat)
     }
     const increaseQuantity = () => {
         setProductQuantity((prev) => prev + 1)

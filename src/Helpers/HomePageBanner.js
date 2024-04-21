@@ -1,4 +1,4 @@
-import { GroupCloth, Shoes, Electronics, Furniture, Books, Jewelry, Watches, Cookware, Sport } from '../Assets/Images/Image';
+import { GroupCloth, Shoes, Electronics, Furniture, Books, Jewelry, Watches, Cookware, Sport, ABC } from '../Assets/Images/Image';
 const data = [
     {
         img: GroupCloth,
@@ -36,6 +36,12 @@ const data = [
         img: Sport,
         name: "Sport and Fitness"
     },
+    {
+        img: ABC,
+        name: "ABC"
+    },
+
+
     
 
 

@@ -34,6 +34,7 @@ const SingleProduct = () => {
     }, [])
     const getSingleProduct = async () => {
         const { data } = await axios.get(`${process.env.REACT_APP_FETCH_PRODUCT}/${id}`)
+        console.log(data);
         productInfo.name = data.name
         productInfo.image = data.image
         productInfo.price = data.price
@@ -64,8 +65,11 @@ const SingleProduct = () => {
     }
     else if (productInfo.type === 'electronics') {
         productFilter.push('monitor', 'ssd', 'hdd')
-
     }
+    else if (productInfo.type === 'ABC') {
+        productFilter.push('ABC')
+    }
+
     else {
         productFilter.push('jewelery')
 

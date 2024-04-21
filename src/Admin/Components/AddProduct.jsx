@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import {
-    Box, Button, Dialog, DialogActions, DialogContent, DialogTitle, Divider, Grid, TextField, Typography, InputLabel, MenuItem, FormControl, Select, 
+    Box, Button, Dialog, DialogActions, DialogContent, DialogTitle, Divider, Grid, TextField, Typography, InputLabel, MenuItem, FormControl, Select,
 } from '@mui/material';
 import { toast } from 'react-toastify';
 import axios from 'axios';
@@ -104,12 +104,27 @@ const AddProduct = ({ getProductInfo, data }) => {
     else if (productInfo.type === 'electronics') {
         productFilter.push('monitor', 'ssd', 'hdd')
     }
+    else if (productInfo.type === 'Watches') {
+        productFilter.push('Man', 'Woman', '')
+    }
+    else if (productInfo.type === 'jewelryes') {
+        productFilter.push('Bracelets', 'Rings', 'Neacklaces', 'Rope-Chain')
+    }
+    else if (productInfo.type === 'Furniture') {
+        productFilter.push('Sofaset', 'Tables and Chair', 'Storage-systems and Units', 'Kids-Furniture')
+    }
+    else if (productInfo.type === 'Cookware') {
+        productFilter.push('Cookware-Set', 'Storage-Contanire', 'Lunch-Boxes', 'Apronch', 'Dinner-Sets')
+    }
+    else if (productInfo.type === 'ABC') {
+        productFilter.push('ABC')
+    }
     else {
         productFilter.push('all')
     }
-    const typeDropdown = ['book', 'cloths', 'shoe', 'electronics',];
+    const typeDropdown = ['book', 'cloths', 'shoe', 'electronics', 'Watches', 'jewelryes','Furniture', 'Cookware','Sport and Fitness', 'ABC',];
     const shoeBrand = ['adidas', 'hushpuppies', 'nike', 'reebok', 'vans']
-
+    const WatchBrand = ['Casio', 'Titen', 'RADO', 'Fastrack', 'Rolex']
 
     return (
         <>
@@ -187,6 +202,27 @@ const AddProduct = ({ getProductInfo, data }) => {
                                                 onChange={handleOnchange}
                                             >
                                                 {shoeBrand.map(item =>
+                                                    <MenuItem value={item} key={item}>{item}</MenuItem>
+                                                )}
+                                            </Select>
+                                        </FormControl>
+                                    </Grid>
+                                }
+                                {
+                                    productInfo.type === 'Watches' &&
+                                    <Grid item xs={12} >
+                                        <FormControl fullWidth>
+                                            <InputLabel id="demo-simple-select-label">Shoe Brand</InputLabel>
+                                            <Select
+                                                labelId="demo-simple-select-label"
+                                                id="demo-simple-select"
+                                                value={productInfo.brand}
+                                                label="Shoe Brand"
+                                                name='brand'
+                                                required
+                                                onChange={handleOnchange}
+                                            >
+                                                {WatchBrand.map(item =>
                                                     <MenuItem value={item} key={item}>{item}</MenuItem>
                                                 )}
                                             </Select>

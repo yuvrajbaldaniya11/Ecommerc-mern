@@ -13,3 +13,4 @@ export let Sport = "https://c0.wallpaperflare.com/preview/395/623/678/woman-stan
 export let Watches = "https://www.digitaltrends.com/wp-content/uploads/2022/09/Apple-Watch-Ultra-on-Wrist-Pocket.jpg?fit=3000%2C2000&p=1";
 export let EmptyCart = 'https://res.cloudinary.com/dxguqzge7/image/upload/v1682838909/Cart_bk4xgl.jpg';
 export let customerReview = "https://res.cloudinary.com/dxguqzge7/image/upload/v1682838911/Review_bm6chw.jpg";
+export let ABC = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2y0QR5xd9i2P6YdN6M4gD5sGaGNUKxrJm3yK6jYMzig&s";

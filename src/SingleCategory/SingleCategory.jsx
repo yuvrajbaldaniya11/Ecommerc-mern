@@ -51,8 +51,12 @@ const SingleCategory = () => {
         productFilter.push('All', 'Monitor', 'SSD', 'HDD', 'Price Low To High', 'Price High To Low', 'High Rated', 'Low Rated')
 
     }
+    else if (cat === 'ABC') {
+        productFilter.push('All','A','B','C')
+
+    }
     else if (cat === 'jewelry') {
-        productFilter.push('All')
+        productFilter.push('All',)
 
     }
 
@@ -110,7 +114,6 @@ const SingleCategory = () => {
                     {productData.map(prod => (
                         <Link to={`/Detail/type/${cat}/${prod._id}`} key={prod._id}>
                             <ProductCard prod={prod} />
-
                         </Link>
                     ))}
                 </Container>
