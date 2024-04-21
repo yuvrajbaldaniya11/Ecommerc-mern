@@ -106,9 +106,8 @@ const AddProduct = ({ getProductInfo, data }) => {
     }
     else {
         productFilter.push('all')
-
     }
-    const typeDropdown = ['book', 'cloths', 'shoe', 'electronics'];
+    const typeDropdown = ['book', 'cloths', 'shoe', 'electronics',];
     const shoeBrand = ['adidas', 'hushpuppies', 'nike', 'reebok', 'vans']
 
 

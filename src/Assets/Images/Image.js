@@ -7,5 +7,9 @@ export let Electronics = 'https://res.cloudinary.com/dxguqzge7/image/upload/v168
 export let Jewelry = 'https://res.cloudinary.com/dxguqzge7/image/upload/v1682838911/model-jwellery_qlcjog.jpg';
 export let Shoes = 'https://res.cloudinary.com/dxguqzge7/image/upload/v1682838911/Shoe_e2yc1d.jpg';
 export let Books = 'https://res.cloudinary.com/dxguqzge7/image/upload/v1682838761/Book_lc6ikb.jpg';
+export let Furniture = 'https://www.realsimple.com/thmb/kRRAaK6XhZIqL_GFIxfZzHTHx7o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/furniture-styles-GettyImages-1467984982-512fed4077b646eabbc187619554d517.jpg';
+export let Cookware = 'https://aolcookshop.co.uk/cdn/shop/collections/le-creuset-azure-blue-sale.webp?v=1676251760';
+export let Sport = "https://c0.wallpaperflare.com/preview/395/623/678/woman-standing-and-carrying-barbell.jpg"
+export let Watches = "https://www.digitaltrends.com/wp-content/uploads/2022/09/Apple-Watch-Ultra-on-Wrist-Pocket.jpg?fit=3000%2C2000&p=1";
 export let EmptyCart = 'https://res.cloudinary.com/dxguqzge7/image/upload/v1682838909/Cart_bk4xgl.jpg';
 export let customerReview = "https://res.cloudinary.com/dxguqzge7/image/upload/v1682838911/Review_bm6chw.jpg";

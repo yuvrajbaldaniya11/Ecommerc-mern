@@ -1,4 +1,4 @@
-import { GroupCloth, Shoes, Electronics, FemaleCloth, MaleCloth, Books, Jewelry } from '../Assets/Images/Image';
+import { GroupCloth, Shoes, Electronics, Furniture, Books, Jewelry, Watches, Cookware, Sport } from '../Assets/Images/Image';
 const data = [
     {
         img: GroupCloth,
@@ -9,21 +9,35 @@ const data = [
         name: "Shoe"
     },
     {
-        img: FemaleCloth,
-        name: "Cloths"
+        img: Watches,
+        name: "Watches"
     },
     {
         img: Electronics,
         name: "Electronics"
     },
     {
-        img: MaleCloth,
-        name: "Cloths"
+        img: Jewelry,
+        name: "jewelryes"
     },
     {
         img: Books,
-        name: "Book"
+        name: "Books"
     },
+    {
+        img: Furniture,
+        name: "Furniture"
+    },
+    {
+        img: Cookware,
+        name: "Cookware"
+    },
+    {
+        img: Sport,
+        name: "Sport and Fitness"
+    },
+    
+
 
 ]
 export default data
