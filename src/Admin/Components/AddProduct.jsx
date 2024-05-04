@@ -110,19 +110,10 @@ const AddProduct = ({ getProductInfo, data }) => {
     else if (productInfo.type === 'jewelryes') {
         productFilter.push('Bracelets', 'Rings', 'Neacklaces', 'Rope-Chain')
     }
-    else if (productInfo.type === 'Furniture') {
-        productFilter.push('Sofaset', 'Tables and Chair', 'Storage-systems and Units', 'Kids-Furniture')
-    }
-    else if (productInfo.type === 'Cookware') {
-        productFilter.push('Cookware-Set', 'Storage-Contanire', 'Lunch-Boxes', 'Apronch', 'Dinner-Sets')
-    }
-    else if (productInfo.type === 'ABC') {
-        productFilter.push('ABC')
-    }
     else {
         productFilter.push('all')
     }
-    const typeDropdown = ['book', 'cloths', 'shoe', 'electronics', 'Watches', 'jewelryes','Furniture', 'Cookware','Sport and Fitness', 'ABC',];
+    const typeDropdown = ['book', 'cloths', 'shoe', 'electronics', 'Watches', 'jewelryes'];
     const shoeBrand = ['adidas', 'hushpuppies', 'nike', 'reebok', 'vans']
     const WatchBrand = ['Casio', 'Titen', 'RADO', 'Fastrack', 'Rolex']
 

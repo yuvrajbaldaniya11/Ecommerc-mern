@@ -34,7 +34,6 @@ const SingleProduct = () => {
     }, [])
     const getSingleProduct = async () => {
         const { data } = await axios.get(`${process.env.REACT_APP_FETCH_PRODUCT}/${id}`)
-        console.log(data);
         productInfo.name = data.name
         productInfo.image = data.image
         productInfo.price = data.price

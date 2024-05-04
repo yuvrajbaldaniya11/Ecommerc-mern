@@ -24,22 +24,7 @@ const data = [
         img: Books,
         name: "Books"
     },
-    {
-        img: Furniture,
-        name: "Furniture"
-    },
-    {
-        img: Cookware,
-        name: "Cookware"
-    },
-    {
-        img: Sport,
-        name: "Sport and Fitness"
-    },
-    {
-        img: ABC,
-        name: "ABC"
-    },
+
 
 
     
